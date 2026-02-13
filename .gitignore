@@ -1,0 +1,17 @@
+# Build folders for all projects
+**/bin/
+**/obj/
+
+# Visual Studio files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Web API secrets / environment files
+Authentication.WebApi/appsettings.Development.json
+Authentication.WebApi/.env
+
+# Logs
+*.log
