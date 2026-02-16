@@ -178,6 +178,15 @@ builder.Services.AddHealthChecks().AddDbContextCheck<ApplicationDbContext>()
 
 var app = builder.Build();
 
+
+
+// Configure Kestrel to listen on Railway port
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+app.Urls.Clear();
+app.Urls.Add($"http://0.0.0.0:{port}");
+
+
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
