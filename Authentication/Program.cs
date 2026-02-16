@@ -137,7 +137,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin", policy =>
     {
-        policy.WithOrigins("http://127.0.0.1:5500", "http://localhost:5500", "https://127.0.0.1:5500", "https://localhost:5500") // replace with your allowed origin
+        policy.WithOrigins("http://127.0.0.1:5500", "http://localhost:5500", "https://127.0.0.1:5500", "https://localhost:5500", "https://loginpage-frontend-sailesh.netlify.app") // replace with your allowed origin
               .AllowAnyMethod()
               .AllowAnyHeader()
               .AllowCredentials();
