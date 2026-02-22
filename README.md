@@ -70,4 +70,9 @@ Technologies used in the project:
   ![Redis](Screenshots/redis-insight.png) 
 
    ### Database Screenshots
+   ### User Info
   ![Neon-PostgreSql](Screenshots/neon-usertable.png) 
+   ### Refresh Token Info
+  ![Neon-PostgreSql](Screenshots/refresh-tokens-table.png) 
+   ### Login Info
+  ![Neon-PostgreSql](Screenshots/login-attempt-table.png) 
