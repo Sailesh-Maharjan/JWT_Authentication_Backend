@@ -52,7 +52,7 @@ Technologies used in the project:
   ### Swagger API Testing 
   ![Swagger](Screenshots/swagger-ui.png) 
   
-  ![Authorize](screenshots/authorizeforswagger.png)
+  ![Authorize](Screenshots/authorizeforswagger.png)
 
   ### Health Monitoring
   ![HealthCheck](Screenshots/health-check.png) 
