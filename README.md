@@ -55,17 +55,26 @@ Technologies used in the project:
   ![Authorize](Screenshots/authorizeforswagger.png)
 
   ### Health Monitoring
-  ![HealthCheck](Screenshots/health-check.png) 
-
-  ###  Login Response
-  ![Login](Screenshots/login.png) 
+  ![HealthCheck](Screenshots/health-check.png)
 
   ###  Register Response
   ![Register](Screenshots/register.png) 
 
+  ###  Login Response
+  ![Login](Screenshots/login.png) 
+
   ###  Rate Limit Violation
   ![RateLimitViolation](Screenshots/ratelimit-violation.png) 
 
+  ###  Refresh Token Response
+  ![RefreshToken](Screenshots/refresh-token.png) 
+
+  ###  Revoke Token Response
+  ![RevokeToken](Screenshots/token-revoked.png) 
+
+   ###  Logout Response
+  ![Logout](Screenshots/logout.png) 
+  
   ###  Redis Insight Screenshots
   ![Redis](Screenshots/redis-insight.png) 
 
