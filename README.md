@@ -33,6 +33,7 @@ Here're some of the project's best features:
 *   Security is maintained through BCrypt password hashing, Redis-based per-endpoint rate limiting, IP-based request tracking, brute-force login protection, maximum login attempt restrictions and temporary IP blocking.
 *   Monitoring is enabled using Serilog structured logging including error tracking authentication, event logs, rate-limit violation logs and a dedicated /health endpoint for service status checks.
 *   The application is deployed on Railway with production-ready configuration and environment-based secret management for secure and scalable operation.
+*  PostgreSQL database is deployed  on Neon (serverless platform) to enable scalable, reliable, and cloud-based data storage.
 
 <h2>💻 Built with</h2>
 
@@ -55,17 +56,26 @@ Technologies used in the project:
   ![Authorize](Screenshots/authorizeforswagger.png)
 
   ### Health Monitoring
-  ![HealthCheck](Screenshots/health-check.png) 
-
-  ###  Login Response
-  ![Login](Screenshots/login.png) 
+  ![HealthCheck](Screenshots/health-check.png)
 
   ###  Register Response
   ![Register](Screenshots/register.png) 
 
+  ###  Login Response
+  ![Login](Screenshots/login.png) 
+
   ###  Rate Limit Violation
   ![RateLimitViolation](Screenshots/ratelimit-violation.png) 
 
+  ###  Refresh Token Response
+  ![RefreshToken](Screenshots/refresh-token.png) 
+
+  ###  Revoke Token Response
+  ![RevokeToken](Screenshots/token-revoked.png) 
+
+   ###  Logout Response
+  ![Logout](Screenshots/logout.png) 
+  
   ###  Redis Insight Screenshots
   ![Redis](Screenshots/redis-insight.png) 
 
